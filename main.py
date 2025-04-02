@@ -1,4 +1,10 @@
 import sys
 import pyperclip
-import pynput
+from pynput import keyboard
+
+def main():
+    print("hello")
+
+if __name__ == "__main__":
+    main()
 

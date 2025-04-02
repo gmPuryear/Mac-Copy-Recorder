@@ -11,7 +11,6 @@ content will be saved to an external file.
 -Create GUI that will display all the previously copied material
 
 ### Packages/Libraries:
-pyperclip: for copy paste functions (pip install pyperclip)
 os: for file IO (already a part of python standard library)
 sys (maybe):
 pynput (library): mouse and keyboard input and monitoring. pip install pynput
