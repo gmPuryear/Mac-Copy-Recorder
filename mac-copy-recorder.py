@@ -33,7 +33,7 @@ def listen_for_hotkeys():
         # creates a listener object that listens for hotkeys to be pressed and released. The 'with' ensures
         # when the listener is stopped or the program ends, resources are cleaned up.
         with keyboard.Listener(
-                on_press = hotkey.press,
+            # on_press is called when the hotkey is released
                 on_release = hotkey.release) as listener:
             # Blocks the program from continuing until the listener is explicitly stopped and listens
             # indefinitely.
